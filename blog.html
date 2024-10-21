@@ -1,0 +1,17 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="page-box-margin">
+  <h3>Latest posts</h3>
+
+  {% for post in site.posts %}
+  <div class="page-box-margin">
+    <h3>
+      <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+    {% assign excerpt = post.content | split: '<!--excerpt.start-->' | last |
+    split: '<!--excerpt.end-->' | first %} {{ excerpt }} {% endfor %}
+  </div>
+</div>

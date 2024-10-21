@@ -1,0 +1,1 @@
+All code in this repository is proprietary and is not licensed for modification, redistribution, or use without explicit permission from the owner. You may view or use the website hosted with this code but may not modify or distribute it.
