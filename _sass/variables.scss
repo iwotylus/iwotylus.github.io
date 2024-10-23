@@ -6,13 +6,15 @@ $headerFont: 'Libertinus Mono', 'Times New Roman';
 $bodyFont: 'Roboto', 'Segoe UI';
 $codeFont: 'Fira Code', 'Segoe UI', monospace;
 
+$fontSize: 14px;
+
 :root[data-theme='light'] {
   color-scheme: light;
   --text: #000;
   --background: #fff;
   --textAlt: #000000cc;
   --textLink: #0000ee;
-  --textLinkVisited: #551a8b;
+  --textLinkVisited: #0000ee; /* #551a8 */
   --grayscale: 0%;
   --hr: #eee;
   --mark: #ff006a;
@@ -24,7 +26,7 @@ $codeFont: 'Fira Code', 'Segoe UI', monospace;
   --background: #191d27;
   --textAlt: #fff;
   --textLink: #007bff; /* #007bff */
-  --textLinkVisited: #9900ff; /* #9900ff */
+  --textLinkVisited: #007bff; /* #9900ff */
   --grayscale: 35%;
   --hr: #272e3d;
   --mark: #ff006a;

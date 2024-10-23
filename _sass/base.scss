@@ -7,7 +7,7 @@ body {
   transition: color 1s cubic-bezier(0.19, 1, 0.22, 1),
     background 1s cubic-bezier(0.19, 1, 0.22, 1);
   font-family: $bodyFont;
-  font-size: 14px;
+  font-size: $fontSize;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: 'kern' 1;
@@ -47,6 +47,15 @@ main {
 /**
   * Site body/content
   */
+#latest-posts {
+  margin-top: 0;
+}
+
+.page-box-margin {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
 h1,
 h2,
 h3,
@@ -57,8 +66,40 @@ h6 {
   font-family: $headerFont;
 }
 
-.page-box-margin {
-  margin: 20px 0px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+.highlight {
+  margin-bottom: 14px;
+}
+
+h2 {
+  margin-top: 42px;
+}
+h3 {
+  margin-top: 36px;
+}
+h4 {
+  margin-top: 30px;
+}
+h5 {
+  margin-top: 24px;
+}
+h6 {
+  margin-top: 18px;
+}
+
+ul {
+  padding-left: 13px;
 }
 
 /**
