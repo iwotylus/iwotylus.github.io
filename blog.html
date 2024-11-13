@@ -7,11 +7,10 @@ title: Blog
   <h3 id="latest-posts">Latest posts</h3>
 
   {% for post in site.posts %}
-  <div class="page-box-margin">
-    <h3>
-      <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-    </h3>
+  <div class="page-box-margin blog-post">
+    <h3 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
     {% assign excerpt = post.content | split: '<!--excerpt.start-->' | last |
-    split: '<!--excerpt.end-->' | first %} {{ excerpt }} {% endfor %}
+    split: '<!--excerpt.end-->' | first %} {{ excerpt }}
   </div>
+  {% endfor %}
 </div>
