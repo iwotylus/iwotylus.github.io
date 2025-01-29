@@ -22,7 +22,6 @@ body {
 
 main {
   flex-grow: 1;
-  overflow-x: hidden;
 }
 
 /**
@@ -431,4 +430,6 @@ mark {
   color: var(--mark);
   font-family: $codeFont;
   font-size: 0.875em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
