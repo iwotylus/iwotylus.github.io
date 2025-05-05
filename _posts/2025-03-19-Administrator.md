@@ -365,6 +365,12 @@ $krb5tgs$23$*ethan$ADMINISTRATOR.HTB$administrator.htb/ethan*$469505f397ecd52d0e
 
 ### Cracking a hash
 
+#### Ethan
+
+Ethan has <mark>DCSync</mark> privileges over the domain, with these, we will be able to dump NTLM hashes for the domain.
+
+![](/assets/img/posts/Administrator/Ethan.png)
+
 We crack the <mark>Kerberos</mark> hash and revealing the password <mark>limpbizkit</mark>.
 
 {% highlight shell %}
