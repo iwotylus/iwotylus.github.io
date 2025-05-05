@@ -214,11 +214,11 @@ INFO: Compressing output into 20250504183824_bloodhound.zip
 
 ![Olivia GenericAll to Micheal](/assets/img/posts/Administrator/OliviaToMichael.png)
 
-<mark>Michael</mark> has <mark>ForceChangePassword</mark> privileges over <mark>Benjamin</mark>. Well, yes.
+<mark>Michael</mark> has <mark>ForceChangePassword</mark> privileges over <mark>Benjamin</mark>.
 
 ![Michael ForceChangePassword to Benjamin](/assets/img/posts/Administrator/MichaelToBenjamin.png)
 
-I can't find a clear path further. However, I have a we will find something along the way as <mark>Benjamin</mark> is a member of <mark>Share Moderators</mark>. 
+I can't find a clear path further. However, I have a hunch we will find something along the way as <mark>Benjamin</mark> is a member of <mark>Share Moderators</mark>. 
 
 ![Benjamin Groups](/assets/img/posts/Administrator/BenjaminGroups.png)
 
