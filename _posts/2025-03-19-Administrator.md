@@ -3,7 +3,7 @@ layout: post
 ---
 
 <!--excerpt.start-->
-[Administrator](https://www.hackthebox.com/machines/Administrator) is a medium difficulty box and it's HTB's first box, in which we are given initial foothold credentials from the very beginning. This box focuses heavily on Active Directory enumeration and privilege escalation. We perform attacks such as Targeted Kerberoasting and ACL abuse.
+[Administrator](https://www.hackthebox.com/machines/Administrator) is a medium difficulty box and it's HTB's first box, in which we are given initial foothold credentials from the very beginning. This box focuses on Active Directory enumeration and privilege escalation. We perform attacks such as targeted Kerberoasting and dumping NTLM hashes using DCSync privileges.
 <!--excerpt.end-->
 
 Initial credentials:
