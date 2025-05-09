@@ -28,12 +28,6 @@ Host is up (0.030s latency).
 Not shown: 65509 closed tcp ports (reset)
 PORT      STATE SERVICE       VERSION
 21/tcp    open  ftp           Microsoft ftpd
-| ftp-syst:    
-|_  SYST: Windows_NT
-53/tcp    open  domain        Simple DNS Plus
-88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2025-05-04 22:29:35Z)
-135/tcp   open  msrpc         Microsoft Windows RPC
-21/tcp    open  ftp           Microsoft ftpd
 | ftp-syst: 
 |_  SYST: Windows_NT
 53/tcp    open  domain        Simple DNS Plus
